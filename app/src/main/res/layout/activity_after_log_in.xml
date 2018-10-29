@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterLogIn">
+
+    <TextView
+        android:id="@+id/titleAfterLogInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:fontFamily="serif"
+        android:text="Accesso effettuato!"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/subtitleAfterLogInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:fontFamily="serif"
+        android:text="Ti sei autenticato come"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/loggedUserCredentialsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:fontFamily="serif"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:onClick="onLogOutClick"
+        android:text="ESCI"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/goToTheAppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:onClick="onGoToTheAppClick"
+        android:text="VAI AI SERVIZI"
+        android:textSize="18sp" />
+</RelativeLayout>
